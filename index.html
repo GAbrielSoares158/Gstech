@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GS Tech – Manutenção em computadores e notebooks em Belo Horizonte. Formatação, upgrade, limpeza, remoção de vírus e suporte técnico." />
+  <meta name="keywords" content="manutenção computadores, formatação, upgrade SSD, limpeza notebook, suporte técnico, BH" />
+  <title>GS Tech – Manutenção em Computadores e Notebooks</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- CSS próprio -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#inicio">
+        <span class="logo-gs">GS</span><span class="logo-tech">Tech</span>
+      </a>
+
+      <!-- Toggler mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#diferenciais">Diferenciais</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-3">
+          <!-- Botão WhatsApp nav -->
+          <a href="https://wa.me/5531971722702" target="_blank" class="btn btn-whatsapp-nav">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+          <!-- Toggle tema -->
+          <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+            <i class="fa-solid fa-sun" id="themeIcon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="inicio" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100 pt-5">
+        <!-- Texto -->
+        <div class="col-lg-6 hero-text fade-in">
+          <span class="badge-tag">Suporte Técnico Especializado</span>
+          <h1 class="hero-title">
+            Manutenção em<br />
+            <span class="highlight">Computadores</span><br />
+            e Notebooks
+          </h1>
+          <p class="hero-subtitle">
+            Formatação, upgrades, limpeza preventiva, remoção de vírus e suporte técnico com qualidade e garantia.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="https://wa.me/5531971722702" target="_blank" class="btn btn-primary-custom">
+              <i class="fa-solid fa-file-invoice"></i> Solicitar Orçamento
+            </a>
+            <a href="https://wa.me/5531971722702" target="_blank" class="btn btn-outline-custom">
+              <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+        <!-- Ilustração -->
+        <div class="col-lg-6 hero-img-col fade-in delay-1">
+          <div class="hero-illustration">
+            <div class="monitor-wrap">
+              <i class="fa-solid fa-display monitor-icon"></i>
+              <div class="monitor-glow"></div>
+            </div>
+            <div class="floating-badge badge-left">
+              <i class="fa-solid fa-shield-halved"></i> Garantia
+            </div>
+            <div class="floating-badge badge-right">
+              <i class="fa-solid fa-bolt"></i> Rápido
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Divisor ondulado -->
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== SERVIÇOS ========== -->
+  <section id="servicos" class="section-pad">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">O que fazemos</span>
+        <h2 class="section-title">Nossos Serviços</h2>
+        <p class="section-sub">Soluções completas para o seu computador ou notebook.</p>
+      </div>
+
+      <div class="row g-4 mt-2">
+        <!-- Card Serviço -->
+        <div class="col-sm-6 col-lg-3 fade-in">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-rotate"></i></div>
+            <h5>Formatação</h5>
+            <p>Reinstalação limpa do sistema com todos os drivers e programas essenciais.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-1">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-wind"></i></div>
+            <h5>Limpeza Interna</h5>
+            <p>Remoção de poeira, troca de pasta térmica e prevenção contra superaquecimento.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-2">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-hard-drive"></i></div>
+            <h5>Upgrade SSD</h5>
+            <p>Troca do HD por SSD para inicialização e carregamento muito mais rápidos.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-3">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-memory"></i></div>
+            <h5>Upgrade de RAM</h5>
+            <p>Ampliação da memória para multitarefas sem travamentos.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-bug-slash"></i></div>
+            <h5>Remoção de Vírus</h5>
+            <p>Varredura completa, eliminação de malwares e proteção futura.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-1">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-brands fa-windows"></i></div>
+            <h5>Instalação Windows</h5>
+            <p>Windows 10 ou 11 ativado, atualizado e configurado para você.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-2">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <h5>Backup</h5>
+            <p>Cópia segura dos seus arquivos antes de qualquer procedimento.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-3">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <h5>Montagem PC Gamer</h5>
+            <p>Montagem, configuração e otimização de PCs para máxima performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIFERENCIAIS ========== -->
+  <section id="diferenciais" class="section-pad section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Por que nos escolher</span>
+        <h2 class="section-title">Nossos Diferenciais</h2>
+      </div>
+      <div class="row g-4 mt-2">
+        <div class="col-sm-6 col-lg-3 fade-in">
+          <div class="diff-card">
+            <div class="diff-icon"><i class="fa-solid fa-rocket"></i></div>
+            <h5>Atendimento Rápido</h5>
+            <p>Diagnóstico no mesmo dia. Maioria dos reparos entregues em 24–48 horas.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-1">
+          <div class="diff-card">
+            <div class="diff-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h5>Garantia</h5>
+            <p>Todos os serviços com garantia. Se o problema voltar, a gente resolve.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-2">
+          <div class="diff-card">
+            <div class="diff-icon"><i class="fa-solid fa-tag"></i></div>
+            <h5>Preço Justo</h5>
+            <p>Orçamento transparente sem surpresas. Sem cobranças escondidas.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fade-in delay-3">
+          <div class="diff-card">
+            <div class="diff-icon"><i class="fa-solid fa-headset"></i></div>
+            <h5>Suporte Especializado</h5>
+            <p>Técnicos experientes que explicam tudo com clareza antes de começar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE ========== -->
+  <section id="sobre" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Ilustração -->
+        <div class="col-lg-5 fade-in">
+          <div class="about-illustration">
+            <i class="fa-solid fa-screwdriver-wrench about-icon"></i>
+            <div class="about-ring"></div>
+          </div>
+        </div>
+        <!-- Texto -->
+        <div class="col-lg-7 fade-in delay-1">
+          <span class="section-tag">Quem somos</span>
+          <h2 class="section-title text-start mt-2">Sobre a GS Tech</h2>
+          <p class="about-text">
+            A <strong>GS Tech</strong> nasceu da paixão por tecnologia e da vontade de oferecer um serviço honesto e de qualidade. Atendemos pessoas físicas e pequenas empresas que precisam de um suporte técnico confiável, sem enrolação e com preço justo.
+          </p>
+          <p class="about-text">
+            Cada equipamento é tratado com cuidado como se fosse nosso. Utilizamos peças de qualidade, ferramentas adequadas e entregamos tudo com garantia. Nosso compromisso é simples: seu computador funcionando, você satisfeito.
+          </p>
+          <a href="https://wa.me/5531971722702" target="_blank" class="btn btn-primary-custom mt-3">
+            <i class="fa-brands fa-whatsapp"></i> Falar com a Equipe
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section id="contato" class="section-pad section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Fale conosco</span>
+        <h2 class="section-title">Contato</h2>
+        <p class="section-sub">Estamos prontos para atender você.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center mt-2">
+        <div class="col-sm-6 col-lg-auto fade-in">
+          <div class="contact-card">
+            <i class="fa-solid fa-phone"></i>
+            <span>Telefone</span>
+            <strong>(31) 9 97172-2702</strong>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-auto fade-in delay-1">
+          <div class="contact-card">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+            <strong>(31) 9 97172-2702</strong>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-auto fade-in delay-2">
+          <div class="contact-card">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+            <strong>@gstech</strong>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-auto fade-in delay-3">
+          <div class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <span>E-mail</span>
+            <strong>contato@gstech.com.br</strong>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-auto fade-in delay-4">
+          <div class="contact-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Cidade</span>
+            <strong>Belo Horizonte – MG</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 fade-in">
+        <a href="https://wa.me/5531971722702" target="_blank" class="btn btn-cta-big">
+          <i class="fa-brands fa-whatsapp"></i> Solicitar Atendimento
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="footer-logo">
+        <span class="logo-gs">GS</span><span class="logo-tech">Tech</span>
+      </div>
+      <p class="footer-tagline">Especializada em manutenção de computadores.</p>
+      <p class="footer-copy">© 2026 GS Tech. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ========== BOTÃO FLUTUANTE WHATSAPP ========== -->
+  <a href="https://wa.me/5531971722702" target="_blank" class="whatsapp-float" title="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ========== CHATBOT ========== -->
+  <div class="chatbot-wrapper" id="chatbotWrapper">
+    <!-- Botão abrir/fechar -->
+    <button class="chatbot-toggle" id="chatbotToggle" title="Chat de suporte">
+      <i class="fa-solid fa-comment-dots" id="chatIcon"></i>
+    </button>
+
+    <!-- Janela do chat -->
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-avatar"><i class="fa-solid fa-robot"></i></div>
+        <div>
+          <strong>Suporte GS Tech</strong>
+          <span class="chatbot-status">● Online</span>
+        </div>
+        <button class="chatbot-close" id="chatbotClose"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="chatbot-messages" id="chatMessages">
+        <!-- Mensagens inseridas pelo JS -->
+      </div>
+
+      <div class="chatbot-options" id="chatOptions">
+        <!-- Botões inseridos pelo JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script próprio -->
+  <script src="script.js"></script>
+</body>
+</html>
